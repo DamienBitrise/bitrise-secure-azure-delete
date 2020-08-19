@@ -12,7 +12,7 @@ begin
   params.print
   params.validate
 
-  if params.container.to_s.empty? || params.account_name.to_s.empty?|| params.account_key.to_s.empty? || params.object.to_s.empty?  || params.filename.to_s.empty? 
+  if params.container.to_s.empty? || params.account_name.to_s.empty?|| params.account_key.to_s.empty? || params.object.to_s.empty? 
     raise 'Error: Not all fields set cannot proceed!'
   end
 
